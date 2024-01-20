@@ -1,0 +1,106 @@
+
+
+
+
+.login-page {
+  width: 450px;
+}
+.form {
+  position: relative;
+  max-width: 450px;
+  margin: 0 ;
+  text-align: center;
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: var(--dark-gray);
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #fff;
+  transition-duration: .3s;
+}
+.form input:focus {
+  box-shadow: 0 0 10px var(--main-yellow);
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: var(--dark-gray);
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 20px;
+  border-radius: 10px;
+  transition-duration: .3s;
+  font-weight: 500;
+}
+.form button:disabled {
+  opacity: 0.5;
+}
+.form button:disabled:hover {
+  cursor: default;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: var(--main-yellow);
+  box-shadow: 0 0 20px var(--main-yellow);
+  color: black;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message span {
+    cursor: pointer;
+  color: var(--main-yellow);
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.authorization {
+  height: 100%;
+  background-color: var(--main-gray);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-msg {
+  color: var(--main-red);
+  padding: 0px 0 10px 0;
+  text-align: left;
+  font-weight: 600;
+}
+
+.form .error-input {
+  box-shadow: 0 0 10px var(--main-red);
+}
+
+.form .error-input:focus {
+  box-shadow: 0 0 10px var(--main-red);
+}
+
+.success-msg {
+  padding: 0px 0 10px 0;
+  text-align: left;
+  font-weight: 600;
+  color: rgb(23, 192, 23);
+}
+
+.login-page h1 {
+  color: white;
+  font-size: 24px;
+  position: absolute;
+  top: 100px;
+}
